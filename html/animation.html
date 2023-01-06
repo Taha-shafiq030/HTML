@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .main{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            background-color: yellow;
+            animation-name: abc;
+            animation-duration: 7s;
+            animation-iteration-count: 4;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        @keyframes abc{
+            /* from{
+                background-color: yellow;
+                border: 2px solid red;
+                margin-top: 700px;
+                margin-left: 0px;
+            }
+            to{
+                background-color: red;
+                border: 2px solid yellow;
+                margin-top: -700px;
+                margin-left: 2000px;
+            } */
+            25%{
+                margin-left: 600px;
+                margin-top: 0px;
+            }
+            50%{
+                margin-left: 600px;
+                margin-top: 600px;
+            }
+            75%{
+                margin-top: 600px;
+                margin-right: 600px;
+            }
+            100%{
+                margin-right: 600px;
+                margin-top: 0px ;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+
+    </div>
+</body>
+</html>
